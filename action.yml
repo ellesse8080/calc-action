@@ -6,9 +6,9 @@ inputs:
     default: 0
 outputs:
   plus:
-    value: ${{ steps.plus.output.result }}
+    value: ${{ steps.plus.outputs.result }}
   minus:
-    value: ${{ steps.minus.output.result }}
+    value: ${{ steps.minus.outputs.result }}
 runs:
   using: "composite"
   steps:

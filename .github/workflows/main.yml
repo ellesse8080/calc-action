@@ -4,4 +4,4 @@ jobs:
   calculate:
     runs-on: ubuntu-latest
     steps:
-      - uses: ellessse8080/calc-action@main
+      - uses: ellesse8080/calc-action@main

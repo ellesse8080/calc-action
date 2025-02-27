@@ -1,6 +1,13 @@
 name: Calc Action
+inpus:
+  x:
+    default: 0
+  y:
+    default: 0
 runs:
   using: "composite"
   steps:
     - run: echo "Hi, I'm a calculator action!"
-      shell: bash
+    shell: bash
+    - run: echo "x=${{ inputs.x }}, y= ${{ inputs.y }}"
+    shell: bash

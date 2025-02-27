@@ -2,6 +2,6 @@ name: Our Workflow
 on: push
 jobs:
   calculate:
-    runs-on: ubuntu-last
+    runs-on: ubuntu-latest
     steps:
       - uses: ellessse8080/calc-action@main
